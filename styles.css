@@ -4,7 +4,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    
   }
+
+  
 
  a{
   color:rgb(255, 80, 0);
@@ -205,8 +208,8 @@
   /* Hero Section */
 
 
-  .hero {
-    background: #edf4ff;
+  .hero{
+    background:#edf4ff;
     padding: 200px 0;
   }
   
@@ -321,14 +324,34 @@ color:rgb(255, 80, 0);
     color:rgb(255, 80, 0);
 
   }
+
+  .main__content:hover h2 {
+    font-size: 4rem;
+    color:rgb(255, 80, 0);
+    animation: flip2 1s;
+
+  }
+
+
+  @keyframes flip2{
+    50%{
+      transform:rotateZ(.5turn);
+    }
+    
+  }
   
   .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
     white-space: normal;
-  
+    
+    
   }
+
+  
+
+  
   .main__skills{
     margin-top: 4rem;
   }
@@ -486,10 +509,10 @@ color:rgb(255, 80, 0);
   
   .services h1 {
     color:rgb(255, 80, 0);
-
     margin-bottom: 5rem;
     font-size: 4rem;
   }
+
 
  
 
