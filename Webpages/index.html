@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Projects</a
+            >
+          </li>
+          <!--
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Contact</a>
+          </li>
+        -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hey I'm <span>Nihal</span></h1>
+        
+        <h1><div class="wrapper">
+          A
+          <span class="txt-type"data-wait="1000" data-words='["Student", "Computer Scientist", "Developer", "Conqueror"]'></span>
+      
+        </div>
+        </h1>
+       <br>
+       <div class="iconHome">
+        <a href="https://www.instagram.com/nihxlnooney_/"><img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"/></a>
+         <img src="https://img.icons8.com/ios-filled/50/000000/gmail-new.png"/>
+       <a href="https://www.linkedin.com/in/nihalraj-nooney-56a1b01ba/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/></a>
+        <a href="https://github.com/NihalNooney"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="main" id="about">
+
+      <div class="main__container">
+        
+        <div class="main__img--container">
+          <div class="photoSize">     
+            <img src ="54436.jpg" width = "400" height = "600"/>
+         </div>
+        </div>
+        <div class="main__content">
+          <h2>About me</h2>
+         <h5><p>I'm Nihalraj Nooney(Nihal for short) and welcome! I'm currently attending South Brunswick High School as a senior. I love learning new things, going on tree-walks, and biking outside. But when it comes to computer science,
+           I'm an avid learner always trying to make myself better than I was yesterday. I like learning new technologies in order to incorporate them into future applications. </p></h5>
+           <p> Outside of computer science, I'm in <a href="http://sbhsmodelun.weebly.com/about-mun.html">SBMUN</a>, <a href="https://sbfbla.com/">FBLA</a>, <a href="https://sbhs.sbschools.org/departments/student_groups/Activities/clubs/biology___medical_futures_club">BioMed</a>, and <a href="https://www.scouting.org/">BSA.</a></p>
+           <div class="main__skills"><p>Skills include: <div class="icons"><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/><img src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png"/><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/><img src="https://img.icons8.com/color-glass/48/000000/css.png"/><img src="https://img.icons8.com/fluent/48/000000/android.png"/><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/><img src="https://img.icons8.com/color/48/000000/firebase.png"/><img src="https://img.icons8.com/color/48/000000/mongodb.png"/></p></div>
+          <p>Currently Learning: Angular  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" id="services">
+      <h1>Projects</h1>
+      <h4>Side note: not all of my projects are listed here; full list available on Github</h4>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <div class="img1">
+            <img src ="image.png" width = "280" height = "200"/>
+          </div>
+          <h2>COVID vaccine data-visualization</h2>
+          <p>Android application incoporating data visualization in order to provide a scale of vaccine distribution</p>
+        </div>
+        <div class="services__card">
+          <div class="img1">
+            <img src ="webpic.PNG" width = "280" height = "200"/>
+          </div>
+          <h2>NihalrajNooney.xyz</h2>
+          <p>It's my portfolio! An extensive cross platform web application utilizing HTML, CSS, and JS with multiple add-ons to make it special!</p>
+        </div>
+        <div class="services__card">
+          <div class="img1">
+            <img src ="graphPic.PNG" width = "280" height = "200"/>
+          </div>
+          <h2>Merge Sort Visualized</h2>
+          <p>A graphical display of Merge Sort in action utilizing HTML, JS, CSS, JSON, and more technologies to make it a fun and exploration-filled experience</p>
+        </div>
+        <div class="services__card">
+          <h2>--------</h2>
+          <p>----------</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <!--
+    <div class="main" id="sign-up">
+      <div class="generalInfo">
+      <h1>
+        Say Hello!<br>
+      </h1>  
+      <h2>
+        I'm always looking to talk to people and I'd appreciate any feedback!
+      </h2>
+      <div class="formInfo">
+      <P>SEND E-Mail</P>
+      <form action="https://formsubmit.co/nooney.nihal@gmail.com" method = "post">
+        <input type = "text" name = "name" placeholder="Full name" required><br>
+        <input type = "text" name = "main" placeholder="Your e-mail" required><br>
+        <input type = "text" name = "subject" placeholder="Subject" required><br>
+        <textarea name = "message" placeholder="Message" required></textarea><br>
+        <button type = "submit" name = "submit">SEND MAIL</button>
+
+      </form>
+      </div>
+      </div>
+    </div>
+
+  -->
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+    
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="social__icons">
+            <a href="/" id="footer__logo">South Brunswick 22<img src="https://img.icons8.com/emoji/48/000000/school-emoji.png"/></a>
+          </div>
+          <p class="website__rights"></p>
+          <div class="social__icons">
+            Made by Nihalraj Nooney<img src="https://img.icons8.com/ios/50/000000/sign-language-y.png"/>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
