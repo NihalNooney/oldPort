@@ -97,7 +97,7 @@
   }
   
   .navbar__links:hover {
-    color: #da0e0e;
+    color:rgb(255, 151, 103);
     transition: all 0.3s ease;
   }
   
@@ -209,7 +209,7 @@
 
 
   .hero{
-    background:#edf4ff;
+    background:#fdfafd;
     padding: 200px 0;
   }
   
@@ -244,7 +244,7 @@
   
   
   .hero__heading span {
-color:rgb(255, 80, 0);
+    color:rgb(255, 151, 103);
   }
   
   .hero__description {
@@ -284,8 +284,8 @@ color:rgb(255, 80, 0);
   
   /* About Section */
   .main {
-    background-color: #edf4ff;
-    padding: 10rem 0;
+    background:#fdfafd;
+        padding: 10rem 0;
   }
   
   .main__container {
@@ -321,13 +321,13 @@ color:rgb(255, 80, 0);
   
   .main__content h2 {
     font-size: 4rem;
-    color:rgb(255, 80, 0);
+    color:rgb(255, 151, 103);
 
   }
 
   .main__content:hover h2 {
     font-size: 4rem;
-    color:rgb(255, 80, 0);
+    color:rgb(255, 151, 103);
     animation: flip2 1s;
 
   }
@@ -498,8 +498,8 @@ color:rgb(255, 80, 0);
   
   /* Services Section */
   .services {
-    background: #edf4ff;
-    display: flex;
+    background:#fdfafd;
+        display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -508,7 +508,7 @@ color:rgb(255, 80, 0);
   }
   
   .services h1 {
-    color:rgb(255, 80, 0);
+  color:rgb(255, 151, 103);
     margin-bottom: 5rem;
     font-size: 4rem;
   }
@@ -536,17 +536,18 @@ color:rgb(255, 80, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:rgb(255, 80, 0);
+    background:rgb(255, 151, 103);
+
 
   }
   
   .services__card:nth-child(2) {
-   background:rgb(255, 80, 0);
+   background:rgb(255, 151, 103);
 
   }
   
   .services__card:nth-child(3) {
-   background:rgb(255, 80, 0);
+   background:rgb(255, 151, 103);
    ;
   }
   
@@ -651,8 +652,8 @@ color:rgb(255, 80, 0);
   
  }
   .formInfo{
-    background: #edf4ff;
-    font-size: 50px ;
+    background:#fdfafd;
+        font-size: 50px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -670,8 +671,8 @@ color:rgb(255, 80, 0);
   }
   /* Footer CSS */
   .footer__container {
-    background-color: #e2e2e2;
-    padding: 5rem 0;
+    background-color: #feffff;
+    padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
